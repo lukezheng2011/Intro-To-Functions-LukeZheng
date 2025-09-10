@@ -3,6 +3,9 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
+t.speed(111)
+
+
 
 t.forward(200)
 
