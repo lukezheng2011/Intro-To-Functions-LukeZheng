@@ -5,16 +5,18 @@ t = Turtle()
 t.shape('turtle')
 t.speed(123)
 
-
+length=5
 
 def square(length):
-    t.forward(length)
-    t.right(90)
+    for i in range(4):
+        t.forward(length)
+        t.right(90)
 
 for i in range(60):
-    length=5
-    square(length)
     
+    square(length)
+    length+=5
+    t.left(5)
 
 
 
