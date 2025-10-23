@@ -11,7 +11,7 @@ def star(length):
         t.forward(length)
         t.right(44)
 
-for i in range(60):
+for i in range(202):
     
     star(length)
     length+=5
